@@ -1,7 +1,11 @@
 
+> This is a fork of [@didomi/react](https://github.com/didomi/react) which:
+>  - supports react 18 ["add react 18 to peerDependencies"](https://github.com/didomi/react/commit/cacd486f8264754dc0aa506e14009aa05973e131)
+>  - removes vulnerable "dset" [Remove unused dset #55](https://github.com/didomi/react/pull/55)
+
 # Didomi React
 
-[![Didomi](https://www.didomi.io/static/assets/logo.png)](https://didomi.io)
+[![Didomi](https://www.didomi.io/hubfs/ASSETS/BANNIERE/Didomi_loop.gif)](https://didomi.io)
 
 Didomi React is a React component which creates a layer on top of our SDK.
 
