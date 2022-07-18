@@ -1,7 +1,11 @@
 
+> This is a fork of [@didomi/react](https://github.com/didomi/react) which:
+>  - supports react 18 ["add react 18 to peerDependencies"](https://github.com/didomi/react/commit/cacd486f8264754dc0aa506e14009aa05973e131)  
+>  - removes vulnerable "dset" [Remove unused dset #55](https://github.com/didomi/react/pull/55)  
+
 # Didomi React
 
-[![Didomi](https://www.didomi.io/static/assets/logo.png)](https://didomi.io)
+[![Didomi](data:image/png;base64,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)](https://didomi.io)
 
 Didomi React is a React component which creates a layer on top of our SDK.
 
@@ -10,7 +14,7 @@ Didomi React is a React component which creates a layer on top of our SDK.
 1. Install the library using npm.
 
 ```sh
-$ npm install --save @didomi/react
+$ npm install --save @teklakct/didomi-react
 ```
 2. Import the module in your app.
 
@@ -186,13 +190,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when the notice is hidden</td>
     </tr>
-    </tr>
     <tr>
       <td>onNoticeBackdropclick</td>
       <td>function</td>
       <td></td>
       <td>Called when the backdrop from the popup notice is clicked</td>
-    </tr>
     </tr>
     <tr>
       <td>onNoticeClickAgree</td>
@@ -200,13 +202,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when user clicks on agree on the notice</td>
     </tr>
-    </tr>
     <tr>
       <td>onNoticeClickMoreInfo</td>
       <td>function</td>
       <td></td>
       <td>Called when user clicks on learn more on the notice</td>
-    </tr>
     </tr>
     <tr>
       <td>onPreferencesClickAgreeToAll</td>
@@ -214,13 +214,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when user clicks on agree to all on the preferences popup</td>
     </tr>
-    </tr>
     <tr>
       <td>onPreferencesClickDisagreeToAll</td>
       <td>function</td>
       <td></td>
       <td>Called when user clicks on disagree to all on the preferences popup</td>
-    </tr>
     </tr>
     <tr>
       <td>onPreferencesClickPurposeAgree</td>
@@ -228,13 +226,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when user agree to a purpose on the preferences popup. (purposeId provided as a parameter)</td>
     </tr>
-    </tr>
     <tr>
       <td>onPreferencesClickPurposeDisagree</td>
       <td>function</td>
       <td></td>
       <td>Called when user disagree to a purpose on the preferences popup. (purposeId provided as a parameter)</td>
-    </tr>
     </tr>
     <tr>
       <td>onPreferencesClickViewVendors</td>
@@ -242,13 +238,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when user clicks on view vendors on the preferences popup</td>
     </tr>
-    </tr>
     <tr>
       <td>onPreferencesClickSaveChoices</td>
       <td>function</td>
       <td></td>
       <td>Called when user saves his choice on the preferences popup</td>
-    </tr>
     </tr>
     <tr>
       <td>onPreferencesClickVendorAgree</td>
@@ -256,13 +250,11 @@ The following configuration options can be passed as props to the `DidomiSDK` co
       <td></td>
       <td>Called when user agree to a vendor on the preferences popup. (vendorId provided as a parameter)</td>
     </tr>
-    </tr>
     <tr>
       <td>onPreferencesClickVendorDisagree</td>
       <td>function</td>
       <td></td>
       <td>Called when user disagree to a vendor on the preferences popup. (vendorId provided as a parameter)</td>
-    </tr>
     </tr>
     <tr>
       <td>onPreferencesClickVendorSaveChoices</td>
