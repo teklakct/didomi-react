@@ -23,7 +23,7 @@
     "lint:fix": "prettier --write src/ tests/"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=16"
   },
   "dependencies": {
     "prop-types": "^15.5.7"
