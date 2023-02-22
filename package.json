@@ -1,7 +1,7 @@
 {
   "name": "@teklakct/didomi-react",
-  "version": "1.8.3",
-  "description": "didomi-react-test React component",
+  "version": "1.8.4",
+  "description": "FORK of didomi-react-test React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
@@ -25,12 +25,15 @@
   "engines": {
     "node": ">=6"
   },
+  "dependencies": {
+    "prop-types": "^15.5.7"
+  },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "envsub": "^3.1.0",
-    "nwb": "0.23.x",
+    "nwb": "^0.25.2",
     "prettier": "2.1.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"

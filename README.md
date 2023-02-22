@@ -1,7 +1,8 @@
 
 > This is a fork of [@didomi/react](https://github.com/didomi/react) which:
->  - supports react 18 ["add react 18 to peerDependencies"](https://github.com/didomi/react/commit/cacd486f8264754dc0aa506e14009aa05973e131)  
->  - removes vulnerable "dset" [Remove unused dset #55](https://github.com/didomi/react/pull/55)  
+>  - removes vulnerable "dset" [Remove unused dset #55](https://github.com/didomi/react/pull/55)
+>  - adds missing dependency ["add prop-types as a dependency"](https://github.com/didomi/react/pull/59)  
+>  - updates "nwb" which solve a lot of vulnerabilities reported by npm audit
 
 # Didomi React
 
